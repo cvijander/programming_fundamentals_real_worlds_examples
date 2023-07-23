@@ -3,7 +3,6 @@ class shirt:
      def _init_(self):
           self.clean = True
 
-
      def make_dirty(self):
           self.clean = False
 
@@ -29,3 +28,19 @@ print(id(crimson))
 # print(crimson.clean)
 
 # info about crimson is it clean or not
+
+print(red.make_dirty())
+
+print(red.clean)
+print(crimson.clean)
+
+print(red is crimson)
+# to check is it the same object
+
+crimson = shirt()
+# now making a new shirt 
+print(id(red))
+print(id(crimson))
+#print(crimson.clean) 
+print(crimson.make_clean())
+print(crimson.clean)

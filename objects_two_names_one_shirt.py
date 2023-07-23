@@ -1,7 +1,9 @@
 class shirt:
      
-     def _init_(self):
+     def __init__(self):
           self.clean = True
+         
+          
 
      def make_dirty(self):
           self.clean = False
@@ -22,10 +24,10 @@ print(id(crimson))
 
 # the same id for red and crimson  the same thing 
 
-# print(red.clean)
+print(red.clean)
 
 # info about red is it clean or not 
-# print(crimson.clean)
+print(crimson.clean)
 
 # info about crimson is it clean or not
 

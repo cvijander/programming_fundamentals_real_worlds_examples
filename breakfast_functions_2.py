@@ -6,3 +6,6 @@ def make_an_omelette():
     print('Cooking the other side')
     omelette = 'a tasty omelette'
     print (omelette)
+
+omelette1 = make_an_omelette()
+omelette2 =make_an_omelette()   
